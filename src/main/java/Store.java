@@ -50,7 +50,7 @@ public class Store {
         System.out.println("The flower bucket looks like this:");
         System.out.println(this.roses_quantity + " roses, " + this.tulip_quantity + " tulips, " + this.chamomile_quantity + " chamomiles.");
         if (bucket_sum != money){
-            System.out.println("Here is your change " + (money - bucket_sum) + ".");}
+            System.out.println("Your change is " + (money - bucket_sum) + ".");}
         this.total_price = bucket_sum;
     }
 }

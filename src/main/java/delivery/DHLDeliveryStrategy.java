@@ -4,7 +4,7 @@ import java.util.List;
 
 public class DHLDeliveryStrategy implements Delivery {
     public void deliver(List<Item> items) {
-        System.out.println("Next item(s) will be delivered by DHL:");
+        System.out.println("\nNext item(s) will be delivered by DHL:");
         String desc = "Bouquet with ";
         int rose_count = 0, tulip_counter = 0, chamomile_count = 0, other = 0;
         for (Item item: items)
